@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Index</title>
+        <link rel="stylesheet" href="https://fontawesome.com/search">
+        <style>
+            header, footer{
+                background-color: tomato;
+                color: white;
+                text-align: center;
+            }
+            section{
+                height: 520px;
+                display: grid;
+                grid-template-columns: 2fr 10fr;
+                border: none;
+            }
+            ul{
+                list-style: none;
+                margin-left: -20px;
+               
+            }
+            li{
+                border: 2px solid tomato;
+                background-color: tomato;
+                color: #fff;
+                margin-bottom: 20px;
+                width: 120px;
+                padding: 5px;
+                
+            }
+            iframe{
+                width: 100%;
+                height: 500px;
+                border: none;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Amazone Shopping</h1>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="home.html" target="frameBody"><span class="fa fa-home"></span>Home</a></li>
+                    <li><a href="Electronics.html" target="frameBody"><span class="fa fa-tv"></span>Electronics</a></li>
+                    <li><a href="Footwear.html" target="frameBody"><span class="fa fa-shoe prints"></span>Footwear</a></li>
+                    <li><a href="Fashion.html" target="frameBody"><span class="fa fa-tshirt"></span>Fashion</a></li>
+                    <li><a href="https://www.youtube.com//embed=si-KFFOW2gw" target="frameBody"><span class="fa fa-video"></span>C Language</a></li>
+                    <li><a href="../images/HTML Note 1.pdf" target="frameBody">HTML PDF</a></li>
+                </ul>
+            </nav>
+            <main>
+                <iframe src="home.html" name="frameBody"></iframe>
+            </main>
+        </section>
+        <footer>
+            <div>&copy: copyright 2023</div>
+        </footer>
+    </body>
+</html>

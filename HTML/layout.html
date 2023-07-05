@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        header{
+            background-color: #f42121ee;
+            padding: 10px;
+        }
+        header div {
+            text-align: center;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        span{
+            font-size: 25px;
+            margin-right: 40px;
+        }
+        section{
+            height: 300px;
+            /* border: 2px solid black; */
+            display: grid;
+            grid-template-columns: 2fr 8fr 2fr;
+            margin-top: 80px;
+        }
+        div{
+            width: 130px;
+            background-color: #f42121ee;
+            font-size: 20px;
+            padding: 3px;
+        }
+        aside{
+            border: 1px solid black;
+            height: 60px;
+            text-align: center;
+            padding: 10px;
+        }
+        article{
+            border: 2px dotted;
+            width: 200px;
+            height: 40px;
+        }
+        figure{
+            border: 2px double;
+            width: 200px;
+            height: 100px;
+            padding: 5px;
+        }
+        footer{
+            background-color: #f42121ee;
+            padding: 10px;
+            text-align: center;
+            font-size: 30px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            Amazon shopping
+        </div>
+        <nav>
+            <span>Home</span>
+            <span>|</span>
+            <span>about</span>
+            <span>|</span>
+            <span>contant</span>
+        </nav>
+    </header>
+    <section>
+        <nav>
+            <menu>
+                <div>Home</div>
+                <div>About</div>
+                <div>Contact</div>
+            </menu>
+        </nav>
+        <main>
+            <article>Updates...</article>
+            <figure>My image</figure>
+            <figcaption>Fig-1</figcaption>
+            <dialog>Chat with HR</dialog>
+        </main>
+        <aside>
+            ads here...
+        </aside>
+    </section>
+    <footer>
+        @copy; copyright 2021
+    </footer>
+</body>
+</html>
